@@ -1,0 +1,20 @@
+@startuml
+
+node "Wifi network"{
+  node Server
+
+  node "Task X NbrOfTask"  as task
+
+  node "User X NbrOfUser" as user
+}
+
+user --> Server : Acess\nthe hub
+user <-- Server : Keep the user\nUp to date
+
+task --> Server : Register\nItself
+task --> Server : Send\nCompletion status
+
+task --> user : Display QrCode
+user --> task : Complete task
+
+@enduml
