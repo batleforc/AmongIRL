@@ -84,3 +84,19 @@ Pour les spec du hub par contre :D
 - Une interface en reactJs/VusJs (j'ai un légère préférence pour react mais j'apprend vue)
 - Socket.io Client ou signalrClient qui permettront le Temps Réel
 - Un ServiceWorker qui permettras l'envoie de notification/l'installation de l'application sur l'écran d'accueille ainsi qu'un peu d'offline
+
+Quelque idée en vrac pour le hub:
+
+- Suivie des tache assigner
+- Suivie de l'avancement des tache
+- Affichage du status de l'user
+- Kill Report
+- I've Been Killed by Report (ne prévient que le serveur pas les user)
+- I've Killed Report (notifie l'user mort lui demandant si il est mort ou non ?)
+- Enregistrement de l'user dans la partie
+- Notification de Buzzer/Kill Report/Fin de partie via vibration/push notification
+- Chat interne a la partie ? Chat avec l'admin ?
+- Scan du code QR + avertissement de l'utilisateur si cette tache lui est attribuer
+- Check des task attribuer (avec un petite photo de la ou est la tache serais cool)
+- Une fois le code Qr scanner instruction pour la tache (remettre la tache en état ou l'effectuer ?)
+- Download des donnée pour la task data (fake ou non via nfc ? Bluetooth ? peut être proposer les deux ? ) puis upload de ces data sur une autre borne
