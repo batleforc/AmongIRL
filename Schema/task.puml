@@ -1,0 +1,9 @@
+@startuml
+
+node Task{
+  node "QrCode Screen (et autre)"
+  node "Raspberry?\nArduino?"
+  node "Un acces wifi"
+}
+
+@enduml
