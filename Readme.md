@@ -12,7 +12,7 @@ Perso en regardant ta vidéo du 3 juin a nouveaux ton idée de carte RFID je sui
 
 Une fois l'utilisateur arriver a une tache celui ci n'aura qu'a scanner un QR code et il pourra déverrouiller la progression de la tache + accéder a des indication sur la dite tache via leur hub.
 
-![Infra](./out/Schema/infra/infra.png)
+![Infra](./out/Schema/Infra/Infra.png)
 
 ## Server (Le chef d'orchestre)
 
