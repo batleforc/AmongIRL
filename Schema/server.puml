@@ -1,0 +1,9 @@
+@startuml
+
+node Server{
+  node WebStatic
+  node WebRestApi
+  node WebAsync
+}
+
+@enduml
